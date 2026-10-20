@@ -1,0 +1,150 @@
+{
+  "version_formato": 1,
+  "autor": "Nicolás Única",
+  "total_objetos": 35516,
+  "categorias_con_datos": 17,
+  "categorias": [
+    {
+      "id": "armas",
+      "nombre": "Armas",
+      "objetos": 12444,
+      "archivo": "categorias/armas.json",
+      "bytes": 15165481,
+      "sha256": "a6b6081c9a8e85f39d682522e5ba6922fc856f6027f3da2ec433f430b180cba6"
+    },
+    {
+      "id": "cuchillos",
+      "nombre": "Cuchillos",
+      "objetos": 2958,
+      "archivo": "categorias/cuchillos.json",
+      "bytes": 3753527,
+      "sha256": "2b07c28da75cd1f62d2431d378575545ab2f933044d3c40686fcc09bc74a0ffe"
+    },
+    {
+      "id": "guantes",
+      "nombre": "Guantes",
+      "objetos": 402,
+      "archivo": "categorias/guantes.json",
+      "bytes": 509427,
+      "sha256": "c1f05597eb5b164e42c7c48bd9c4353412178ac60d382ca5995b32bbe9dfa825"
+    },
+    {
+      "id": "agentes",
+      "nombre": "Agentes",
+      "objetos": 63,
+      "archivo": "categorias/agentes.json",
+      "bytes": 73161,
+      "sha256": "7ccf615ebc9c2429d020570b39567e4c6b774de7857635bb9d2760cdf4c6e06f"
+    },
+    {
+      "id": "cajas",
+      "nombre": "Cajas y otros paquetes",
+      "objetos": 101,
+      "archivo": "categorias/cajas.json",
+      "bytes": 116906,
+      "sha256": "e577b684b612b1eb1e33decd606051d3621ac0b8285a5981765ff3f18bbd8894"
+    },
+    {
+      "id": "capsulas",
+      "nombre": "Cápsulas",
+      "objetos": 197,
+      "archivo": "categorias/capsulas.json",
+      "bytes": 237254,
+      "sha256": "79f5d47fec02060fa1635975ee5467cb9e4c132fdfb5e31af73ac5a4f5b5d971"
+    },
+    {
+      "id": "paquetes-souvenir",
+      "nombre": "Paquetes souvenir",
+      "objetos": 161,
+      "archivo": "categorias/paquetes-souvenir.json",
+      "bytes": 195507,
+      "sha256": "4c37348d794404dbaa94f47d299760023f9649197dad9217ffe91c755f1a5079"
+    },
+    {
+      "id": "llaves",
+      "nombre": "Llaves",
+      "objetos": 27,
+      "archivo": "categorias/llaves.json",
+      "bytes": 29421,
+      "sha256": "0fcf9f838b1ca958ac5b2339c7dd65ee8b6656971e088e946177ebf64b18509d"
+    },
+    {
+      "id": "pegatinas",
+      "nombre": "Pegatinas",
+      "objetos": 10243,
+      "archivo": "categorias/pegatinas.json",
+      "bytes": 11995708,
+      "sha256": "bf702201e5e75d2236d63829b052740c2e2f3db30cf12c8dbf1adfbaa94870c2"
+    },
+    {
+      "id": "grafitis",
+      "nombre": "Grafitis",
+      "objetos": 1799,
+      "archivo": "categorias/grafitis.json",
+      "bytes": 2193773,
+      "sha256": "bb032f1ddb76d965562109f4f6ef08374ba6ebbbaa863f7623ed155a8fd2a436"
+    },
+    {
+      "id": "kits-de-musica",
+      "nombre": "Kits de música",
+      "objetos": 185,
+      "archivo": "categorias/kits-de-musica.json",
+      "bytes": 224486,
+      "sha256": "8e442243e271151658e952ea0fb955b549660afd07642e563dc10749b0262ce9"
+    },
+    {
+      "id": "parches",
+      "nombre": "Parches",
+      "objetos": 112,
+      "archivo": "categorias/parches.json",
+      "bytes": 127637,
+      "sha256": "a224883d351ddba6f39c310374e79bfbdc76e3c580918dd6e1e8299d45e47ecf"
+    },
+    {
+      "id": "amuletos",
+      "nombre": "Amuletos",
+      "objetos": 6742,
+      "archivo": "categorias/amuletos.json",
+      "bytes": 8197973,
+      "sha256": "ae68018a2f2582b28e5d4936102c41d38547d5931cc54f06a42a3191904845ab"
+    },
+    {
+      "id": "coleccionables-y-pines",
+      "nombre": "Coleccionables y pines",
+      "objetos": 45,
+      "archivo": "categorias/coleccionables-y-pines.json",
+      "bytes": 50784,
+      "sha256": "1beff18ad5d7cc5aaa9b9c898bf51513519636c59eaac9f0558f216e85b43b13"
+    },
+    {
+      "id": "pases",
+      "nombre": "Pases",
+      "objetos": 32,
+      "archivo": "categorias/pases.json",
+      "bytes": 36586,
+      "sha256": "749f8901cf0de72b90c154ea59ba5cfdfbf39c04c88b8321c250923658542e97"
+    },
+    {
+      "id": "herramientas",
+      "nombre": "Herramientas",
+      "objetos": 2,
+      "archivo": "categorias/herramientas.json",
+      "bytes": 2153,
+      "sha256": "88a9295d9babc2a3e1a40678aec2eee7ba9434c6f00c9b2075092862aad8c885"
+    },
+    {
+      "id": "regalos",
+      "nombre": "Regalos",
+      "objetos": 3,
+      "archivo": "categorias/regalos.json",
+      "bytes": 3283,
+      "sha256": "e662f56a87326b190e8dd653fc92789cea99479735e4824e71400b77d5c1bb69"
+    },
+    {
+      "id": "otros",
+      "nombre": "Otros / por clasificar",
+      "objetos": 0,
+      "archivo": null
+    }
+  ]
+}

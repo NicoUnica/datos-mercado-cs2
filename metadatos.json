@@ -1,0 +1,64 @@
+{
+  "nombre": "datos-mercado-cs2",
+  "autor": "Nicolás Única",
+  "version_formato": 1,
+  "contenido": "Instantánea de los datos básicos del catálogo local de CS2.",
+  "exportado_el": "2026-10-20T10:54:27.349Z",
+  "zona_horaria_fechas": "UTC",
+  "fuente": "Mercado público de Counter-Strike 2 en Steam; recopilación local propia.",
+  "total_objetos": 35516,
+  "imagenes_distintas": 24062,
+  "precios_con_fecha_actualizada": 27,
+  "periodo_capturas": {
+    "desde": "2026-10-19T13:32:44.702Z",
+    "hasta": "2026-10-20T09:24:33.514Z"
+  },
+  "periodo_precios": {
+    "desde": "2026-10-19T13:32:44.702Z",
+    "hasta": "2026-10-20T09:52:45.672Z"
+  },
+  "cobertura": {
+    "verificada_por_identidades": false,
+    "nota": "El catálogo contiene los objetos guardados. No se garantiza que sea el 100 % del mercado actual de Steam."
+  },
+  "organizacion": {
+    "indice": "indice.json",
+    "datos": "categorias/*.json",
+    "formato_archivos": "Arrays JSON UTF-8. Todos los objetos tienen los mismos campos. Las categorías vacías no crean archivos."
+  },
+  "limites": [
+    "Los precios y cantidades son los valores guardados, no cotizaciones actuales ni precios de compras personales.",
+    "Se conservan los últimos valores disponibles y sus fechas, incluidas actualizaciones posteriores a la primera captura.",
+    "La clasificación puede estar deducida; no todas las fichas tienen etiquetas verificadas individualmente en Steam.",
+    "Una imagen puede compartirse entre varios objetos.",
+    "No contiene órdenes de compra/venta, históricos, sesiones, base de datos de la aplicación, código, demos ni imágenes descargadas."
+  ],
+  "atribucion": {
+    "imagenes_y_marcas": "Las imágenes y marcas de Steam y Counter-Strike pertenecen a sus titulares. Proyecto independiente sin afiliación con Valve."
+  },
+  "campos": {
+    "id": "Identificador estable derivado del nombre de mercado.",
+    "nombre": "Nombre guardado del objeto.",
+    "nombre_mercado": "Nombre exacto que identifica el objeto en el mercado de Steam.",
+    "categoria_id": "Identificador de la categoría del archivo.",
+    "categoria": "Nombre de la categoría en español.",
+    "tipo": "Texto de tipo guardado; se conserva su idioma de origen.",
+    "rareza": "Rareza guardada, que puede estar deducida del tipo o nombre; no implica verificación individual.",
+    "color_rareza": "Color hexadecimal de la clasificación guardada.",
+    "exterior": "Estado de desgaste guardado, o null si no consta/no corresponde.",
+    "stattrak": "Indicador guardado de StatTrak; null si no consta.",
+    "souvenir": "Indicador guardado de Souvenir; null si no consta.",
+    "origen_clasificacion": "Procedencia de la clasificación guardada, sin convertir deducciones en etiquetas verificadas.",
+    "imagen_url": "Enlace HTTPS a la imagen de Steam. No se descargan imágenes.",
+    "steam_url": "Enlace a la ficha de mercado de Steam.",
+    "moneda": "USD para los precios del catálogo.",
+    "precio_usd": "Precio guardado en dólares; equivale a precio_centimos / 100.",
+    "precio_centimos": "Precio en céntimos enteros. Campo exacto para cálculos monetarios.",
+    "tipo_precio": "minimo_anunciado para el precio mínimo publicado, o mediana cuando corresponda.",
+    "fecha_precio": "Fecha UTC en que se guardó ese precio; no es la fecha de esta exportación.",
+    "unidades_venta": "Cantidad de objetos anunciados guardada; no es volumen de ventas realizadas.",
+    "fecha_unidades_venta": "Fecha UTC de la cantidad guardada.",
+    "fecha_captura": "Primera incorporación del objeto al catálogo local.",
+    "autor_recopilacion": "Autor de la recopilación y organización del registro. No atribuye la autoría de las imágenes ni las marcas de Steam."
+  }
+}
